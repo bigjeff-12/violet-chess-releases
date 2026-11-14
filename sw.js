@@ -1,5 +1,5 @@
-const CACHE = "bjc-200b3b6f097f";
-const FILES = ["./","apple-touch-icon.png","assets/mobile-cARxFu1l.js","assets/mobile-DRoofdb6.css","assets/openings-BP90xieq.js","engine/LICENSE-GPL-3.0.txt","engine/stockfish-19-lite-single.js","engine/stockfish-19-lite-single.wasm","icon-192.png","icon-512.png","icon-maskable-512.png","manifest.webmanifest"];
+const CACHE = "bjc-5c54b1bc8471";
+const FILES = ["./","apple-touch-icon.png","assets/mobile-QbY0IWef.css","assets/mobile-tOvkld7C.js","assets/openings-BP90xieq.js","engine/LICENSE-GPL-3.0.txt","engine/stockfish-19-lite-single.js","engine/stockfish-19-lite-single.wasm","icon-192.png","icon-512.png","icon-maskable-512.png","manifest.webmanifest"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
 });
